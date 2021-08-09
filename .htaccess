@@ -1,0 +1,31 @@
+#menghilangkan_ekstensi_php
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+#error_document
+ErrorDocument 400 http://bumdeshelumo.online/
+ErrorDocument 403 http://bumdeshelumo.online/
+ErrorDocument 404 http://bumdeshelumo.online/
+ErrorDocument 500 http://bumdeshelumo.online/
+
+<Files ~"^.*\.([Hh][Tt][Aa])">
+    order allow,deny
+    deny from all
+    satisfy all
+</Files>
+
+#disable_ekstensi_folder
+IndexIgnore *.tar.gz *.txt *.php *.html *.css *.js *.py *css *js *.jpg *.png *.jpeg *.JPG *.PNG *.JPEG *.pdf *.exe *.apk *berita *banner *images *thumbnail_video *pilihan *fontawesome-free *admin
+
+#disable_directori_listing
+Options -Indexes
+
+#caching_(kecepatan)
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$"> 
+Header set Cache-Control "max-age=29030400, public" 
+</FilesMatch> 
+

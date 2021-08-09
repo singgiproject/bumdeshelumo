@@ -1,0 +1,51 @@
+NOTIFIKASI PEMESANAN
+0 = belum diproses
+1 = sedang diproses
+2 = selesai diproses
+3 = sudah dikembalikan
+
+sejarah
+luas wilayah
+jumlah penduduk
+
+3 hari 2 unit
+
+
+===============
+AKUN BUMDES 
+
+Akun Gmail
+Email : helumo.gorontalo@gmail.com
+Pass : @HelumoGorontalo
+
+Akun 000webhost
+Email : contact.bumdeshelumo@gmail.com
+Pass : AdminBumdesHelumo!@#$%12345
+
+Akun Web 
+HOST : files.000webhost.com
+URL : bumdeshelumogorontalo
+Pass : kvAwXQ*TRICqv2%!gLEq
+
+Database
+host : localhost
+DB name : id17346133_bumdeshelumo
+DB user : id17346133_root
+Pass : [Yza)6(\@wUb~Ja/
+
+=========
+INfinity free
+Email :helumo.gorontalo@gmail.com
+Pass : NR6MN3cLQPuy8Zw
+
+Akun Web
+URL : bumdes-gorontalo.epizy.com
+Pass : wb(HmwEgXKrHZPyLqhAM
+
+
+FTP Details
+FTP Username 	epiz_28453886
+FTP Password 	NDik4XhT45pn
+FTP Hostname 	ftpupload.net
+FTP Port (optional) 	21
+ 

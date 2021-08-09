@@ -1,0 +1,114 @@
+/*DESKTOP TO SMALL MOBILE*/
+@media only screen and (min-width: 120px) and (max-width: 1080px){
+	/*container*/
+	.container{
+		width: 100%;
+		margin: 0;
+		border-radius: 0;
+	}
+}
+
+@media only screen and (min-width: 120px) and (max-width: 780px){
+	/*top logo*/
+	.top-logo{
+		width: 100%;
+		padding: 0;
+		float: right;
+		margin-top: -30px;
+	}
+	.top-logo img{
+		width: 200px;
+		float: right;
+		top: 0;
+		right: 0;
+		user-select: none;
+		pointer-events: none;
+	}
+		/*bottom logo*/
+	.bottom-logo{
+		width: 100%;
+		padding: 0;
+		margin-bottom: -30px;
+		float: left;
+	}
+	.bottom-logo img{
+		width: 200px;
+		float: left;
+		left: 0;
+		user-select: none;
+		pointer-events: none;
+		bottom: 0;
+	}
+	/*container*/
+	.container{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		border-radius: 0;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	/*form*/
+	.form{
+		width: 100%;
+	}
+	.box-form form{
+		width: 100%;
+	}
+	.box-form form table tr{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.box-form form{
+		box-sizing: border-box;
+		float: left;
+		width: 100%;
+	}
+	.box-form form input{
+	}
+
+	/*content right*/
+	.content-right{
+		display: none;
+	}
+
+	/*class mobile*/
+	#register-mobile{
+		display: block;
+		margin-top: 10px;
+		background: #fff;
+		border: 1px solid #49bf48;
+		color: #49bf48;
+	}
+	#register-mobile:hover{
+		background: linear-gradient(30deg, rgb(37, 127, 45) 0%, rgb(94, 254, 91) 70%);
+		color: #fff;
+	}
+	.top-logo,
+	.bottom-logo,
+	.logo-mobile{
+		display: block;
+	}
+	.logo-mobile img{
+		width: 40px;
+	}
+
+
+}
+
+/*Responsive box regulations*/
+@media only screen and (min-width: 120px) and (max-width: 550px){
+	.box-regulations{
+		width: 96%;
+		left: 0;
+		right: 0;
+		margin-right: 10px;
+		margin: 10px;
+		box-sizing: border-box;
+	}
+	#btn-close-regulations{
+		width: 96%;
+		left: 0;
+		margin: 10px;
+	}
+}

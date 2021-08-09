@@ -1,0 +1,285 @@
+/*DARK MODE*/
+#darkmode{
+	background-color: #2a2f32;
+	color: #eee;
+	z-index: 4;
+}
+
+/*darkmode top bar*/
+#darkmode .top-bar{
+	background-color: #2a2f32;
+}
+#darkmode .bt-menu{
+	box-shadow: none;
+}
+#darkmode .top-bar{
+	box-shadow: 1px 1px 10px #222;
+}
+
+/*dark mode menu profile*/
+#darkmode .box-list-menu-profile{
+	background-color: #2a2f32;
+	box-shadow: 1px 1px 10px #222;
+}
+#darkmode .box-list-menu-profile li a:hover{
+	background-color: transparent !important;
+}
+
+/*darkmode search*/
+#darkmode .box-list-search{
+	background-color: #2a2f32;
+}
+
+/*darkmode menu aplikasi*/
+#darkmode .box-list-app{
+	background-color: #2a2f32;
+}
+
+#darkmode .logo-top-bar h2{
+	color: #5efe5b;
+}
+#darkmode .menu-session{
+	padding: 10px !important;
+}
+#darkmode .menu ul li a{
+	color: #5efe5b;
+}
+#darkmode .box-list-app li a:hover{
+	background-color: transparent !important;
+}
+#darkmode .box-list-app{
+	transition: .1s;
+	box-shadow: 1px 1px 10px #222;
+	margin-top: 10px !important;
+}
+
+/*darkmode list-menu*/
+#darkmode .box-list-menu{
+	background-color: #2a2f32;
+	box-shadow: 1px 1px 10px #222;
+	transition: .1s;
+	margin-top: 10px !important;
+}
+
+
+#darkmode .box-list-menu li a:hover{
+	background-color: transparent !important;
+}
+
+#darkmode .menu li a:hover{
+	background-color: #444;
+}
+#darkmode #btn-view-search:hover{
+	background-color: transparent;
+	border-radius: 50%;
+	box-sizing:border-box;
+}
+#darkmode .bt-acccount{
+	background-color: transparent !important;
+}
+
+/*darkmode menu darkmode*/
+#darkmode .bt-menu{
+	border: 1px solid #444;
+}
+#darkmode .bt-menu:hover{
+	color: #eaeaea;
+	background: rgb(37, 127, 45, 0.3) !important;
+}
+#darkmode .box-list-menu li a:hover{
+	color: #aaa !important;
+}
+
+#darkmode #btn-sun:hover{
+	background-color: transparent;
+}
+/*darkmode banner*/
+#darkmode .content-banner p{
+	color: #bbb;
+}
+
+/*dark mode product/barang*/
+#darkmode .title-content h2{
+	color: #5efe5b;
+}
+#darkmode .ordering i{
+	color: #5efe5b;
+}
+
+#darkmode .title-content p{
+	color: #aaa;
+}
+#darkmode .box-product{
+	box-shadow: 1px 1px 15px #222;
+	background-color: #30373c;
+}
+#darkmode .price-box-product span,
+#darkmode .stock span,
+#darkmode .ordering span{
+	color: #bbb;
+}
+#darkmode .box-info-barang{
+	box-shadow: 1px 1px 15px #222;
+	background-color: #444;
+}
+
+#darkmode .fa-image-product{
+	color: #222;
+}
+
+/*dark mode profile sejarah desa*/
+#darkmode .box-profile-desa{
+	box-shadow: 1px 1px 15px #222;
+	background-color: #30373c;
+}
+#darkmode .paragraf-profile-desa p{
+	color:#ddd;
+}
+#darkmode .admin-profile-sejarah span{
+	color: #aaa;
+}
+#darkmode .maps-village table tr{
+	background-color: #4b5358;
+	color: #eaeaea;
+}
+
+/*dark mode profile visi misi*/
+#darkmode .box-profile-vm{
+	box-shadow: 1px 1px 15px #222;
+	background-color: #30373c;
+}
+#darkmode .box-profile-vm p{
+	color: #ddd;
+}
+
+/*dark mode profile struktur bumdes*/
+#darkmode .img-bumdes-black{
+	display: none;
+}
+#darkmode .img-bumdes-white{
+	display: block;
+}
+#darkmode .content-struktur-bagan1,
+#darkmode .content-struktur-bagan2,
+#darkmode .content-struktur-bagan3,
+#darkmode .content-struktur-bagan4,
+#darkmode .content-struktur-bagan5,
+#darkmode .content-struktur-bagan6,
+#darkmode .content-struktur-bagan7{
+	box-shadow: 1px 1px 15px #222;
+	background-color: #30373c;	
+}
+
+/*dark mode profile struktur kantor desa*/
+#darkmode .img-kades-black{
+	display: none;
+}
+#darkmode .img-kades-white{
+	display: block;
+}
+
+#darkmode .content-struktur-kades-bagan1,
+#darkmode .content-struktur-kades-bagan2,
+#darkmode .content-struktur-kades-bagan3,
+#darkmode .content-struktur-kades-bagan4,
+#darkmode .content-struktur-kades-bagan5,
+#darkmode .content-struktur-kades-bagan6,
+#darkmode .content-struktur-kades-bagan7{
+	box-shadow: 1px 1px 15px #222;
+	background-color: #30373c;	
+}
+
+/*dark mode FAQ*/
+#darkmode .content-faq-bagan1,
+#darkmode .content-faq-bagan2,
+#darkmode .content-faq-bagan3,
+#darkmode .content-faq-bagan4,
+#darkmode .content-faq-bagan5,
+#darkmode .content-faq-bagan6,
+#darkmode .content-faq-bagan7{
+	background-color: #30373c;	
+	box-shadow: 1px 1px 15px #222;
+}
+
+/*dark mode tutorial*/
+#darkmode .box-tutorial{
+	box-shadow: 1px 1px 15px #222;
+	background-color: #30373c;	
+}
+
+/*dark mode footer*/
+#darkmode .footer{
+	border-top:1px solid #222;
+}
+
+/*dark mode top bar (TOP BAR MOBILE)*/
+#darkmode label #btn-view-menu{
+	color: #eaeaea;
+}
+#darkmode .box-mobile-menu{
+	background-color: box-shadow: 1px 1px 15px #222;
+	background-color: #30373c;
+}
+
+#darkmode #btn-close-menu{
+	box-shadow: 1px 1px 10px #222;
+	background-color: #30373c;
+}
+#darkmode .link-mobile-menu ul span,
+#darkmode .link-mobile-menu li a{
+	color: #eaeaea;
+}
+#darkmode .link-mobile-menu form button{
+	color: #eaeaea;
+}
+#darkmode .link-mobile-menu li i{
+	color: #aaa;
+}
+#darkmode .info-account-session span{
+	color: #eaeaea;
+}
+
+/*dark mode bottom bar (MENU MOBILE)*/
+#darkmode .bottom-bar{
+	background-color: box-shadow: 1px 1px 15px #222;
+	background-color: #30373c;	
+	border-top: 1px solid #222;
+}
+#darkmode .menu-bottom-bar li i,
+#darkmode .menu-bottom-bar li a{
+	color: #eaeaea;
+}
+
+/*dark mode page order*/
+#darkmode .logo-unit h2{
+	color: #eaeaea;
+}
+#darkmode .logo-unit p{
+	color: #bbb;
+}
+#darkmode .box-form-order label{
+	color: #eaeaea;
+}
+#darkmode .box-form-order form select,
+#darkmode .box-form-order form input{
+	background-color: #eaeaea;
+}
+
+/*dark mode info-pesanan desktop*/
+#darkmode .box-table-order-desktop table th{
+	background-color: #30373c;
+	color: #eaeaea;
+}
+#darkmode .box-table-order-desktop table td{
+	color: #bbb;
+}
+
+/*dark mode info-pesanan mobile*/
+#darkmode .box-table-order-mobile table td{
+	border: 1px solid #222 !important;
+}
+
+/*dark mode notification*/
+#darkmode .description-notification-mobile p{
+	color: #bbb;
+}

@@ -1,0 +1,330 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+/*FONT FACE*/
+@font-face{
+	font-family: poppins;
+	src:url('../fonts/Poppins-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: open-sans;
+	src:url('../fonts/OpenSans-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: viga;
+	src:url('../fonts/Viga-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: roboto;
+	src:url('../fonts/RobotoCondensed-Regular.ttf')format('truetype');
+}
+/*END FONT FACE*/
+
+body{
+	background-image: url(../images/backround.png);
+}
+
+/*FITUR CSS*/
+.clear-both{
+	clear: both;
+}
+
+/*=== CONTAINER ===*/
+.container{
+	box-shadow: 1px 1px 10px #777;
+	background-size: cover;
+	/*background-image: url(../images/banner/banner1.jpeg);*/
+	width: 1080px;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #fff;
+	transition: 1.5s;
+	border-radius: 20px;
+	z-index: 99999999 !important;
+}
+/*form*/
+.form{
+	width: 48%;
+	border-radius: 20px;
+	padding: 50px;
+	float: left;
+	box-sizing: border-box;
+}
+.head-form{
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	font-family: poppins;
+	width: 100%;
+}
+.head-form h2{
+	font-size: 20px;
+}
+.head-form p{
+	color: #555;
+	font-size: 13px;
+}
+
+
+/*check error login*/
+#check-login{
+	display: none;
+}
+label #btn-close-login{
+	color: #caa4a8;
+	margin-top: 25px;
+	cursor: pointer;
+	margin-right: 10px;
+	float: right !important;
+}
+label #btn-close-login:hover{
+	color: #af666c;
+}
+.box-error-login{
+	color: #842029;
+	background-color: #f8d7da;
+	border-color: #f5c2c7;
+	margin-bottom: 10px;
+	border-radius: .25rem
+}
+.box-error-login p{
+	padding: 10px;
+	font-family: poppins;
+	font-size: 13px;
+	box-sizing: border-box;
+}
+#check-login:checked ~ .box-error-login{
+	display: none;
+}
+#check-login:checked ~ label #btn-close-login{
+	display: none;
+}
+
+
+/*check success registration*/
+#check-registration{
+	display: none;
+}
+label #btn-close-registration{
+	color: #93b5a5;
+	margin-top: 25px;
+	cursor: pointer;
+	margin-right: 10px;
+	float: right !important;
+}
+label #btn-close-registration:hover{
+	color: #0f5132;
+}
+.box-error-registration{
+	color: #0f5132;
+	background-color: #d1e7dd;
+	border-color: #badbcc;
+	margin-bottom: 10px;
+	border-radius: .25rem
+}
+.box-error-registration p{
+	padding: 10px;
+	font-family: poppins;
+	font-size: 13px;
+	box-sizing: border-box;
+}
+#check-registration:checked ~ .box-error-registration{
+	display: none;
+}
+#check-registration:checked ~ label #btn-close-registration{
+	display: none;
+}
+
+
+.box-form form table td{
+	font-family: poppins;
+	font-size: 13px;
+}
+.box-form form table{
+	width: 100%;
+}
+
+/*jenis-user*/
+.jenis-user{
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 1px 1px 15px #ccc;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-sizing: border-box;	
+
+}
+#btn-view-user{
+	color: #333;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	width: 100%;
+	cursor: pointer;
+	display: inline-block;
+}
+#btn-view-user:hover{
+	background-color: #eee;
+}
+#check-user{
+	display: none;
+}
+#check-user:checked ~ .box-view-user{
+	display: block;
+}
+
+.box-view-user{
+	display: none;
+}
+
+.box-form form input{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	outline: none;
+	font-family: poppins;
+	border: none;
+	box-shadow: 1px 1px 15px #ccc;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	margin-left: -2px;
+}
+.box-form form input:focus{
+	transition: .2s;
+	background-color: rgba(85, 229, 82, 0.2);
+}
+
+
+
+
+
+#check-required{
+	width: 20px;
+	box-shadow: 0px 0px 0px transparent;
+	background-color: transparent;
+}
+#label-required{
+	margin-bottom: 20px;
+	font-family: poppins;
+	font-size: 12px;
+	color: #555;
+	cursor: pointer;
+}
+
+.box-form form i{
+	color: #49bf48;
+	font-size: 19px;
+	margin: 0;
+	padding: 11.5px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	box-shadow: 1px 1px 15px #ccc;
+	background-color: #fff;
+	display: block;
+	float: right;
+}
+.fa-envelope{
+	padding-right: 10.5px !important;
+	padding-top: 13.5px !important;
+	padding-bottom: 13.5px !important;
+	padding-left: 12px !important;
+	font-size: 14px !important;
+}
+
+.box-form form button{
+	width: 200px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	background: linear-gradient(30deg, rgb(94, 254, 91) 0%, rgb(37, 127, 45) 100%);
+	box-sizing: border-box;	
+	color: #fff;
+	font-family: poppins;
+	cursor: pointer;
+	margin: auto;
+	display: inline-block;
+	box-shadow: 1px 1px 15px #aaa;
+	padding: 10px;
+}
+.box-form form button:hover{
+	background: linear-gradient(30deg, rgb(94, 254, 91) 0%, rgb(37, 127, 45) 70%);
+}
+.button-submit{
+	padding-left: 20px;
+	text-align: center;
+}
+.icon-td{
+	width: 100%;
+	display: inline-block;
+}
+
+/*content right*/
+.content-right{
+	width: 48%;
+	border-radius: 20px;
+	padding: 50px;
+	float: left;
+	box-sizing: border-box;
+}
+.head-content-right{
+	text-align: center;
+}
+.head-content-right img{
+	width: 40px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.logo-ung{
+	width: 50px !important;
+}
+.logo-kemendes{
+	width: 50px !important;
+}
+.head-content-right p{
+	font-size: 13px;
+	font-family: poppins;
+	color: #555;
+}
+.img-content-right img{
+	width: 100%;
+}
+
+/*class mobile*/
+#register-mobile{
+	display: none;
+}
+.top-logo,
+.bottom-logo,
+.logo-mobile{
+	display: none;
+}
+.button-login{
+	margin-top: 20px;
+	text-align: center;
+}
+.button-login button{
+	cursor: pointer;
+	width: 200px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	transition: .2s;
+	box-sizing: border-box;	
+	font-family: poppins;
+	background: #fff;
+	border: 1px solid #49bf48;
+	box-shadow: 1px 1px 15px #ccc;
+	color: #49bf48;
+	padding: 10px;
+}
+.button-login button:hover{
+	transition: .2s;
+	color: #fff;
+	background: linear-gradient(30deg, rgb(94, 254, 91) 0%, rgb(37, 127, 45) 70%);
+}

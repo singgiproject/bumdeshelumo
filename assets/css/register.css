@@ -1,0 +1,339 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+/*FONT FACE*/
+@font-face{
+	font-family: poppins;
+	src:url('../fonts/Poppins-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: open-sans;
+	src:url('../fonts/OpenSans-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: viga;
+	src:url('../fonts/Viga-Regular.ttf')format('truetype');
+}
+@font-face{
+	font-family: roboto;
+	src:url('../fonts/RobotoCondensed-Regular.ttf')format('truetype');
+}
+/*END FONT FACE*/
+
+body{
+	background-image: url(../images/backround.png);
+}
+
+/*FITUR CSS*/
+.clear-both{
+	clear: both;
+}
+
+/*=== CONTAINER ===*/
+.container{
+	box-shadow: 1px 1px 10px #777;
+	background-size: cover;
+	/*background-image: url(../images/banner/banner1.jpeg);*/
+	width: 1080px;
+	margin: 20px auto;
+	padding: 10px;
+	top: 0;
+	height: 100%;
+	background-color: #fff;
+	transition: 1.5s;
+	border-radius: 20px;
+
+}
+/*form*/
+.form{
+	width: 48%;
+	border-radius: 20px;
+	padding: 50px;
+	float: left;
+	box-sizing: border-box;
+}
+.head-form{
+	box-sizing: border-box;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	font-family: poppins;
+	width: 100%;
+}
+.head-form h2{
+	font-size: 20px;
+}
+.head-form p{
+	color: #555;
+	font-size: 13px;
+}
+
+.box-form form table td{
+}
+.box-form form table{
+	width: 100%;
+}
+.box-form form input{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	outline: none;
+	font-family: poppins;
+	border: none;
+	box-shadow: 1px 1px 15px #ccc;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	margin-left: -2px;
+}
+.box-form form input:focus{
+	transition: .2s;
+	background-color: rgba(85, 229, 82, 0.2);
+}
+.box-form form select{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	outline: none;
+	font-family: poppins;
+	border: none;
+	font-size: 12.2px;
+	color: #333;
+	cursor:pointer;
+	box-shadow: 1px 1px 15px #ccc;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	margin-left: -2px;
+}
+.box-form form select:focus{
+	transition: .2s;
+	background-color: rgba(85, 229, 82, 0.2);
+}
+#notif-username{
+	margin-bottom: 20px;
+	color: #444;
+	display: block;
+	margin-top: -10px;
+	font-family: poppins;
+	font-size: 12px;
+}
+
+/*check regulations*/
+#check-regulations{
+	width: 20px;
+	box-shadow: 0px 0px 0px transparent;
+	background-color: transparent;
+}
+#check-regulations{
+	display: none;
+}
+#btn-close-regulations{
+	font-family: poppins;
+	position: fixed;
+	left: 25%;
+	margin-bottom: -40px;
+	cursor: pointer;
+	color: #fff;
+	padding: 5px;
+	box-sizing: border-box;
+	display: none;
+	background: linear-gradient(30deg, rgb(94, 254, 91) 0%, rgb(37, 127, 45) 100%);
+	z-index: 1;
+	width: 300px;
+	margin: auto;
+	right: 25%;
+	bottom: 25%;	
+}
+#btn-close-regulations:hover{
+	background: linear-gradient(30deg, rgb(94, 254, 91) 0%, rgb(37, 127, 45) 60%);
+}
+.box-regulations{
+	background-color: white;
+	box-shadow: 1px 1px 15px #aaa;
+	position: fixed;
+	display: none;
+	width: 300px;
+	left: 25%;
+	overflow-x: auto;
+	right: 25%;
+	top: 25%;
+	bottom: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: auto;
+	font-family: poppins;
+}
+
+.box-regulations h2{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.paragraf-regulations{
+	margin-bottom: 50px;
+}
+.box-regulations p{
+	font-size: 13px;
+}
+#check-regulations:checked ~ .box-regulations{
+	display: block;
+}
+#check-regulations:checked ~ label #btn-close-regulations{
+	display: block;
+}
+
+
+#label-regulations{
+	margin-bottom: 10px;
+	font-family: poppins;
+	font-size: 13px;
+	color: #49bf48;
+	cursor: pointer;
+}
+#label-regulations:hover{
+	text-decoration: underline;
+}
+
+#check-regis{
+	width: 20px;
+	box-shadow: 0px 0px 0px transparent;
+	background-color: transparent;
+}
+#label-regis{
+	margin-bottom: 20px;
+	font-family: poppins;
+	font-size: 12px;
+	color: #555;
+	cursor: pointer;
+}
+
+.box-form form i{
+	color: #49bf48;
+	font-size: 19px;
+	margin: 0;
+	padding: 11.5px;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	box-shadow: 1px 1px 15px #ccc;
+	background-color: #fff;
+	display: block;
+	float: right;
+}
+.fa-user{
+	padding-right: 13.5px !important;
+	padding-top: 13.5px !important;
+	padding-bottom: 12px !important;
+	padding-left: 12px !important;
+	font-size: 16px !important;
+}
+.fa-envelope{
+	padding-right: 13.5px !important;
+	padding-top: 13.5px !important;
+	padding-bottom: 13.5px !important;
+	padding-left: 12px !important;
+	font-size: 14px !important;
+}
+.fa-map-marker{
+	padding-right: 15.5px !important;
+	padding-top: 13.5px !important;
+	padding-bottom: 10.5px !important;
+	padding-left: 12px !important;
+	font-size: 18px !important;
+}
+.box-form form button{
+	width: 200px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	background: linear-gradient(30deg, rgb(94, 254, 91) 0%, rgb(37, 127, 45) 100%);
+	box-sizing: border-box;	
+	color: #fff;
+	font-family: poppins;
+	cursor: pointer;
+	margin: auto;
+	display: inline-block;
+	box-shadow: 1px 1px 15px #aaa;
+	padding: 10px;
+}
+.box-form form button:hover{
+	background: linear-gradient(30deg, rgb(94, 254, 91) 0%, rgb(37, 127, 45) 70%);
+}
+.button-submit{
+	padding-left: 20px;
+	text-align: center;
+}
+.icon-td{
+	width: 100%;
+	display: inline-block;
+}
+
+/*content right*/
+.content-right{
+	width: 48%;
+	border-radius: 20px;
+	padding: 50px;
+	float: left;
+	box-sizing: border-box;
+}
+.head-content-right{
+	text-align: center;
+}
+.head-content-right img{
+	width: 40px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.logo-ung{
+	width: 50px !important;
+}
+.logo-kemendes{
+	width: 50px !important;
+}
+.head-content-right p{
+	font-size: 13px;
+	font-family: poppins;
+	color: #555;
+}
+.img-content-right img{
+	width: 100%;
+}
+
+/*class mobile*/
+#register-mobile{
+	display: none;
+}
+.top-logo,
+.bottom-logo,
+.logo-mobile{
+	display: none;
+}
+.button-login{
+	margin-top: 20px;
+	text-align: center;
+}
+.button-login button{
+	cursor: pointer;
+	width: 200px;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	transition: .2s;
+	box-sizing: border-box;	
+	font-family: poppins;
+	background: #fff;
+	border: 1px solid #49bf48;
+	box-shadow: 1px 1px 15px #ccc;
+	color: #49bf48;
+	padding: 10px;
+}
+.button-login button:hover{
+	transition: .2s;
+	color: #fff;
+	background: linear-gradient(30deg, rgb(94, 254, 91) 0%, rgb(37, 127, 45) 70%);
+}
